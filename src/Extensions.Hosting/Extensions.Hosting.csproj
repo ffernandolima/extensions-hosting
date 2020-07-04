@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>1701;1702;1705;1591</NoWarn>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <AssemblyName>Extensions.Hosting</AssemblyName>
+        <PackageId>Extensions.Hosting</PackageId>
+        <Authors>Lima Technology Services;Fernando Luiz de Lima</Authors>
+        <Copyright>Copyright © Lima Technology Services;Fernando Luiz de Lima</Copyright>
+        <Description>Exposes hosting utilities.</Description>
+        <PackageProjectUrl>https://github.com/ffernandolima/extensions-hosting</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/ffernandolima/extensions-hosting</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Microsoft; Extensions; Hosting</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
