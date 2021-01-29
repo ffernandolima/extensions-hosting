@@ -6,16 +6,16 @@ Also, it exposes task scheduling utilities based on cron expressions.
 
  | Package | NuGet |
  | ------- | ----- |
- | Extensions.Hosting | [![Nuget](https://img.shields.io/badge/nuget-v2.2.0-blue) ![Nuget](https://img.shields.io/nuget/dt/Extensions.Hosting)](https://www.nuget.org/packages/Extensions.Hosting/2.2.0) |
- | Extensions.Hosting.Scheduling | [![Nuget](https://img.shields.io/badge/nuget-v2.2.0-blue) ![Nuget](https://img.shields.io/nuget/dt/Extensions.Hosting.Scheduling)](https://www.nuget.org/packages/Extensions.Hosting.Scheduling/2.2.0) |
+ | Extensions.Hosting | [![Nuget](https://img.shields.io/badge/nuget-v2.2.1-blue) ![Nuget](https://img.shields.io/nuget/dt/Extensions.Hosting)](https://www.nuget.org/packages/Extensions.Hosting/2.2.1) |
+ | Extensions.Hosting.Scheduling | [![Nuget](https://img.shields.io/badge/nuget-v2.2.1-blue) ![Nuget](https://img.shields.io/nuget/dt/Extensions.Hosting.Scheduling)](https://www.nuget.org/packages/Extensions.Hosting.Scheduling/2.2.1) |
 
 ## Installation
 
 It is available on Nuget.
 
 ```
-Install-Package Extensions.Hosting -Version 2.2.0
-Install-Package Extensions.Hosting.Scheduling -Version 2.2.0
+Install-Package Extensions.Hosting -Version 2.2.1
+Install-Package Extensions.Hosting.Scheduling -Version 2.2.1
 ```
 
 P.S.: There's no dependency between the packages. Which one has its own features.
