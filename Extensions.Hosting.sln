@@ -23,6 +23,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0E7BD8
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions.Hosting", "src\Extensions.Hosting\Extensions.Hosting.csproj", "{092BD159-1126-420F-A1FA-EA792FE371F7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{FECB3719-18C8-4504-B94A-ED70BF3359C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{CA4BBDFE-C3C0-4CFE-92D7-B8F534456771}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-and-publish.yml = .github\workflows\build-and-publish.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +51,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2DD42F81-8E0A-4C12-A92B-4A7C0FE71B7B} = {BC814238-D65D-43DD-A511-160207C512AB}
 		{092BD159-1126-420F-A1FA-EA792FE371F7} = {BC814238-D65D-43DD-A511-160207C512AB}
+		{CA4BBDFE-C3C0-4CFE-92D7-B8F534456771} = {FECB3719-18C8-4504-B94A-ED70BF3359C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BBA4260-40E7-4ABB-A1AA-15190243A40E}
