@@ -4,6 +4,8 @@ Exposes Startup extensions to be used with generic host.
 
 Also, it exposes task scheduling utilities based on cron expressions.
 
+[![build-and-publish Workflow Status](https://github.com/ffernandolima/extensions-hosting/actions/workflows/build-and-publish.yml/badge.svg?branch=master)](https://github.com/ffernandolima/extensions-hosting/actions/workflows/build-and-publish.yml?branch=master)
+
  | Package | NuGet |
  | ------- | ----- |
  | Extensions.Hosting | [![Nuget](https://img.shields.io/badge/nuget-v2.2.1-blue) ![Nuget](https://img.shields.io/nuget/dt/Extensions.Hosting)](https://www.nuget.org/packages/Extensions.Hosting/2.2.1) |
